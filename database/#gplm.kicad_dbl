@@ -582,7 +582,7 @@
                 {
                     "column": "Resistance",
                     "name": "Value",
-                    "visible_on_add": false,
+                    "visible_on_add": true,
                     "visible_in_chooser": false,
                     "show_name": false
                 },
@@ -610,7 +610,7 @@
                 {
                     "column": "Resistance",
                     "name": "Resistance",
-                    "visible_on_add": true,
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
@@ -624,7 +624,7 @@
                 {
                     "column": "Tolerance",
                     "name": "Tolerance",
-                    "visible_on_add": true,
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
@@ -633,6 +633,92 @@
                     "name": "Datasheet",
                     "visible_on_add": false,
                     "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "LCSC",
+                    "name": "LCSC",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
+                    "show_name": false
+                }
+            ]
+        },
+        {
+            "name": "rvr",
+            "table": "rvr",
+            "key": "IPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Resistance",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": false,
+                    "show_name": false
+                },
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Description",
+                    "name": "Description",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Resistance",
+                    "name": "Resistance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Turns",
+                    "name": "Turns",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "LCSC",
+                    "name": "LCSC",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
                     "show_name": false
                 }
             ]
@@ -754,8 +840,8 @@
             ]
         },
         {
-            "name": "xtr",
-            "table": "xtr",
+            "name": "trs",
+            "table": "trs",
             "key": "IPN",
             "symbols": "Symbol",
             "footprints": "Footprint",
@@ -768,10 +854,10 @@
                     "show_name": false
                 },
                 {
-                    "column": "MPN",
+                    "column": "Value",
                     "name": "Value",
-                    "visible_on_add": false,
-                    "visible_in_chooser": false,
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
                     "show_name": false
                 },
                 {
@@ -784,8 +870,8 @@
                 {
                     "column": "MPN",
                     "name": "MPN",
-                    "visible_on_add": true,
-                    "visible_in_chooser": true,
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
                     "show_name": false
                 },
                 {
@@ -800,6 +886,27 @@
                     "name": "Datasheet",
                     "visible_on_add": false,
                     "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "max(Vce)",
+                    "name": "max(Vce)",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "max(Ic)",
+                    "name": "max(Ic)",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "LCSC",
+                    "name": "LCSC",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false,
                     "show_name": false
                 }
             ]
