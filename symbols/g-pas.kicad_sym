@@ -13,16 +13,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0 2.54 0)
+			(at 1.27 2.54 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" ".Value"
-			(at 0 -2.54 0)
+			(at 1.27 -2.54 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,7 +40,7 @@
 			)
 		)
 		(property "Datasheet" ".Datasheet"
-			(at -8.89 -7.62 0)
+			(at -7.62 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,7 +50,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at -8.89 -5.08 0)
+			(at -7.62 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -79,7 +80,7 @@
 		(symbol "C_1_1"
 			(polyline
 				(pts
-					(xy -0.508 0) (xy -1.27 0)
+					(xy 0.762 0) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -92,7 +93,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.508 -1.524) (xy -0.508 1.524)
+					(xy 0.762 -1.524) (xy 0.762 1.524)
 				)
 				(stroke
 					(width 0)
@@ -105,7 +106,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.508 0) (xy 1.27 0)
+					(xy 1.778 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -118,7 +119,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.508 -1.524) (xy 0.508 1.524)
+					(xy 1.778 -1.524) (xy 1.778 1.524)
 				)
 				(stroke
 					(width 0)
@@ -130,7 +131,7 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
+				(at -2.54 0 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -148,7 +149,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at 5.08 0 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -180,7 +181,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 2.54 0)
+			(at 1.27 2.54 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -188,7 +190,8 @@
 			)
 		)
 		(property "Value" ".Value"
-			(at 0 -1.27 0)
+			(at 1.27 -1.27 0)
+			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -205,7 +208,7 @@
 			)
 		)
 		(property "Datasheet" ".Datasheet"
-			(at -3.81 -6.35 0)
+			(at -2.54 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -215,7 +218,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at -3.81 -3.81 0)
+			(at -2.54 -3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -243,19 +246,6 @@
 			)
 		)
 		(symbol "L_0_1"
-			(arc
-				(start -2.54 0)
-				(mid -1.905 0.6323)
-				(end -1.27 0)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 255 1)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(arc
 				(start -1.27 0)
 				(mid -0.635 0.6323)
@@ -295,10 +285,23 @@
 					(type none)
 				)
 			)
+			(arc
+				(start 2.54 0)
+				(mid 3.175 0.6323)
+				(end 3.81 0)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "L_1_1"
 			(pin passive line
-				(at -3.81 0 0)
+				(at -2.54 0 0)
 				(length 1.27)
 				(name "1"
 					(effects
@@ -316,7 +319,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at 5.08 0 180)
 				(length 1.27)
 				(name "2"
 					(effects
@@ -345,7 +348,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "RV"
-			(at 0 -4.445 0)
+			(at 1.27 -4.445 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -353,8 +356,8 @@
 				)
 			)
 		)
-		(property "Value" "R_Potentiometer_Trim_US"
-			(at 0 -2.54 0)
+		(property "Value" ".Value"
+			(at 1.27 -2.54 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -372,7 +375,7 @@
 			)
 		)
 		(property "Datasheet" ".Datasheet"
-			(at -10.16 -10.16 0)
+			(at -8.89 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -382,7 +385,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer, US symbol"
-			(at -10.16 -7.62 0)
+			(at -8.89 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -412,7 +415,7 @@
 		(symbol "R_Potentiometer_Trim_US_0_1"
 			(polyline
 				(pts
-					(xy -2.286 0) (xy -2.54 0)
+					(xy -1.016 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0)
@@ -425,7 +428,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
+					(xy -1.016 0) (xy -0.635 1.016) (xy -0.254 0) (xy 0.127 -1.016) (xy 0.508 0)
 				)
 				(stroke
 					(width 0)
@@ -438,7 +441,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 1.524) (xy 0.762 1.524)
+					(xy 0.508 1.524) (xy 2.032 1.524)
 				)
 				(stroke
 					(width 0)
@@ -451,7 +454,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 0) (xy -0.381 1.016) (xy 0 0) (xy 0.381 -1.016) (xy 0.762 0)
+					(xy 0.508 0) (xy 0.889 1.016) (xy 1.27 0) (xy 1.651 -1.016) (xy 2.032 0)
 				)
 				(stroke
 					(width 0)
@@ -464,7 +467,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0 1.524)
+					(xy 1.27 2.54) (xy 1.27 1.524)
 				)
 				(stroke
 					(width 0)
@@ -477,7 +480,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
+					(xy 2.032 0) (xy 2.413 1.016) (xy 2.794 0) (xy 3.175 -1.016) (xy 3.556 0)
 				)
 				(stroke
 					(width 0)
@@ -490,7 +493,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.286 0) (xy 2.54 0)
+					(xy 3.556 0) (xy 3.81 0)
 				)
 				(stroke
 					(width 0)
@@ -504,7 +507,7 @@
 		)
 		(symbol "R_Potentiometer_Trim_US_1_1"
 			(pin passive line
-				(at -3.81 0 0)
+				(at -2.54 0 0)
 				(length 1.27)
 				(name "1"
 					(effects
@@ -522,7 +525,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 3.81 270)
+				(at 1.27 3.81 270)
 				(length 1.27)
 				(name "2"
 					(effects
@@ -540,7 +543,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at 5.08 0 180)
 				(length 1.27)
 				(name "3"
 					(effects
@@ -571,7 +574,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 0 2.54 0)
+			(at 1.27 2.54 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -579,8 +582,8 @@
 				)
 			)
 		)
-		(property "Value" "Value"
-			(at 0 -2.54 0)
+		(property "Value" ".Value"
+			(at 1.27 -2.54 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -598,7 +601,7 @@
 			)
 		)
 		(property "Datasheet" ".Datasheet"
-			(at -7.62 -7.62 0)
+			(at -6.35 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -608,7 +611,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at -7.62 -5.08 0)
+			(at -6.35 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -638,7 +641,7 @@
 		(symbol "R_US_0_1"
 			(polyline
 				(pts
-					(xy -2.286 0) (xy -2.54 0)
+					(xy -1.016 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0)
@@ -651,7 +654,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.286 0) (xy -1.905 1.016) (xy -1.524 0) (xy -1.143 -1.016) (xy -0.762 0)
+					(xy -1.016 0) (xy -0.635 1.016) (xy -0.254 0) (xy 0.127 -1.016) (xy 0.508 0)
 				)
 				(stroke
 					(width 0)
@@ -664,7 +667,7 @@
 			)
 			(polyline
 				(pts
-					(xy -0.762 0) (xy -0.381 1.016) (xy 0 0) (xy 0.381 -1.016) (xy 0.762 0)
+					(xy 0.508 0) (xy 0.889 1.016) (xy 1.27 0) (xy 1.651 -1.016) (xy 2.032 0)
 				)
 				(stroke
 					(width 0)
@@ -677,7 +680,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.762 0) (xy 1.143 1.016) (xy 1.524 0) (xy 1.905 -1.016) (xy 2.286 0)
+					(xy 2.032 0) (xy 2.413 1.016) (xy 2.794 0) (xy 3.175 -1.016) (xy 3.556 0)
 				)
 				(stroke
 					(width 0)
@@ -690,7 +693,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.286 0) (xy 2.54 0)
+					(xy 3.556 0) (xy 3.81 0)
 				)
 				(stroke
 					(width 0)
@@ -704,7 +707,7 @@
 		)
 		(symbol "R_US_1_1"
 			(pin passive line
-				(at -3.81 0 0)
+				(at -2.54 0 0)
 				(length 1.27)
 				(name "~"
 					(effects
@@ -722,7 +725,7 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
+				(at 5.08 0 180)
 				(length 1.27)
 				(name "~"
 					(effects

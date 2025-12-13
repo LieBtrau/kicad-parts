@@ -1,2 +1,2 @@
 IPN,Value,MPN,Manufacturer,Type,max(Vce),max(Ic),Description,Symbol,Footprint,Datasheet,LCSC
-TRS-0000-0000,MMBT5179,MMBT5179,onsemi,NPN,12,50m,RF TRANS NPN 12V 2GHZ SOT-23-3,g-dis:Q_NPN,SmallOutlinePackages:SOT-23,https://www.onsemi.com/pub/Collateral/MMBT5179-D.PDF,C416012
+TRS-0000-0000,MMBT5179,MMBT5179,onsemi,NPN,12,50m,RF TRANS NPN 12V 2GHZ SOT-23-3,g-dis:Q_NPN,g-SOT:SOT-23-3,https://www.onsemi.com/pub/Collateral/MMBT5179-D.PDF,C416012

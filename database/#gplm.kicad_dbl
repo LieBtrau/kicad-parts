@@ -109,7 +109,7 @@
                 {
                     "column": "Capacitance",
                     "name": "Value",
-                    "visible_on_add": false,
+                    "visible_on_add": true,
                     "visible_in_chooser": false,
                     "show_name": false
                 },
@@ -137,34 +137,41 @@
                 {
                     "column": "Capacitance",
                     "name": "Capacitance",
-                    "visible_on_add": true,
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
                 {
                     "column": "Voltage",
                     "name": "Voltage",
-                    "visible_on_add": true,
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
                 {
                     "column": "Material",
                     "name": "Material",
-                    "visible_on_add": true,
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
                 {
                     "column": "Tolerance",
                     "name": "Tolerance",
-                    "visible_on_add": true,
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
                 {
                     "column": "Datasheet",
                     "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "LCSC",
+                    "name": "LCSC",
                     "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
@@ -202,6 +209,13 @@
                 {
                     "column": "MPN",
                     "name": "MPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
                     "visible_on_add": true,
                     "visible_in_chooser": true,
                     "show_name": false
@@ -226,6 +240,13 @@
                     "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
+                },
+                {
+                    "column": "LCSC",
+                    "name": "LCSC",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
                 }
             ]
         },
@@ -246,7 +267,7 @@
                 {
                     "column": "Inductance",
                     "name": "Value",
-                    "visible_on_add": false,
+                    "visible_on_add": true,
                     "visible_in_chooser": false,
                     "show_name": false
                 },
@@ -274,14 +295,14 @@
                 {
                     "column": "Inductance",
                     "name": "Inductance",
-                    "visible_on_add": true,
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
                 {
                     "column": "Current",
                     "name": "Current",
-                    "visible_on_add": true,
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
@@ -464,9 +485,9 @@
                     "show_name": false
                 },
                 {
-                    "column": "MPN",
+                    "column": "Value",
                     "name": "Value",
-                    "visible_on_add": false,
+                    "visible_on_add": true,
                     "visible_in_chooser": false,
                     "show_name": false
                 },
@@ -480,7 +501,7 @@
                 {
                     "column": "MPN",
                     "name": "MPN",
-                    "visible_on_add": true,
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
@@ -494,6 +515,13 @@
                 {
                     "column": "Datasheet",
                     "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "LCSC",
+                    "name": "LCSC",
                     "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
@@ -738,9 +766,9 @@
                     "show_name": false
                 },
                 {
-                    "column": "MPN",
+                    "column": "Value",
                     "name": "Value",
-                    "visible_on_add": false,
+                    "visible_on_add": true,
                     "visible_in_chooser": false,
                     "show_name": false
                 },
@@ -768,20 +796,27 @@
                 {
                     "column": "Current",
                     "name": "Current",
-                    "visible_on_add": true,
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
                 {
                     "column": "Voltage",
                     "name": "Voltage",
-                    "visible_on_add": true,
+                    "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
                 },
                 {
                     "column": "Datasheet",
                     "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "LCSC",
+                    "name": "LCSC",
                     "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
@@ -963,6 +998,85 @@
             ]
         },
         {
+            "name": "opt",
+            "table": "opt",
+            "key": "IPN",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "IPN",
+                    "name": "IPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Color",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+		        {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "MPN",
+                    "name": "MPN",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+    		    {
+                    "column": "Color",
+                    "name": "Color",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "I-forward-max",
+                    "name": "I-forward-max",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "V-forward",
+                    "name": "V-forward",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Wavelength",
+                    "name": "Wavelength",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                },
+                {
+                    "column": "LCSC",
+                    "name": "LCSC",
+                    "visible_on_add": false,
+                    "visible_in_chooser": true,
+                    "show_name": false
+                }
+            ]
+        },
+        {
             "name": "osc",
             "table": "osc",
             "key": "IPN",
@@ -1021,78 +1135,6 @@
                 {
                     "column": "Description",
                     "name": "Description",
-                    "visible_on_add": false,
-                    "visible_in_chooser": true,
-                    "show_name": false
-                },
-                {
-                    "column": "Datasheet",
-                    "name": "Datasheet",
-                    "visible_on_add": false,
-                    "visible_in_chooser": true,
-                    "show_name": false
-                }
-            ]
-        },
-        {
-            "name": "opt",
-            "table": "opt",
-            "key": "IPN",
-            "symbols": "Symbol",
-            "footprints": "Footprint",
-            "fields": [
-                {
-                    "column": "IPN",
-                    "name": "IPN",
-                    "visible_on_add": false,
-                    "visible_in_chooser": true,
-                    "show_name": false
-                },
-                {
-                    "column": "Color",
-                    "name": "Value",
-                    "visible_on_add": true,
-                    "visible_in_chooser": true,
-                    "show_name": false
-                },
-		{
-                    "column": "Manufacturer",
-                    "name": "Manufacturer",
-                    "visible_on_add": false,
-                    "visible_in_chooser": true,
-                    "show_name": false
-                },
-                {
-                    "column": "MPN",
-                    "name": "MPN",
-                    "visible_on_add": true,
-                    "visible_in_chooser": true,
-                    "show_name": false
-                },
-    		{
-                    "column": "Color",
-                    "name": "Color",
-                    "visible_on_add": true,
-                    "visible_in_chooser": true,
-                    "show_name": false
-                },
-                {
-                    "column": "I-forward-max",
-                    "name": "I-forward-max",
-                    "visible_on_add": true,
-                    "visible_in_chooser": true,
-                    "show_name": false
-                },
-                {
-                    "column": "V-forward",
-                    "name": "V-forward",
-                    "visible_on_add": false,
-                    "visible_in_chooser": true,
-                    "show_name": false
-                },
-                {
-                    "column": "Wavelength",
-                    "name": "Wavelength",
                     "visible_on_add": false,
                     "visible_in_chooser": true,
                     "show_name": false
