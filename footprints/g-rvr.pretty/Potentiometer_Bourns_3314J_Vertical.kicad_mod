@@ -6,7 +6,7 @@
 	(descr "Potentiometer, vertical, Bourns 3314J, http://www.bourns.com/docs/Product-Datasheets/3314.pdf")
 	(tags "Potentiometer vertical Bourns 3314J")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -1.5 0)
 		(layer "F.Fab")
 		(uuid "386eed73-7b9d-43e4-8029-a450e25b8b1b")
 		(effects
