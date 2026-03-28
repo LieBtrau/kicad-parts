@@ -6,7 +6,7 @@
 	(descr "Inductor, Coilcraft, 1008HQ_2520Metric, 2.92x2.79x2.03mm, (https://www.coilcraft.com/getmedia/d309e334-bba7-474c-baad-e9acd748f87a/1008hq.pdf), generated with kicad-footprint-generator gen_inductor.py")
 	(tags "hq")
 	(property "Reference" "REF**"
-		(at 0 -2.35 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "32c7f51f-a1af-45c9-b684-c06303bbaeb7")
 		(effects
@@ -74,18 +74,6 @@
 		(fill no)
 		(layer "F.Fab")
 		(uuid "a069c183-9ea1-4c13-87dd-64eebeffc82c")
-	)
-	(fp_text user "REF**"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(uuid "9825b93e-3f48-47e8-8789-3028085d5610")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-				(bold yes)
-			)
-		)
 	)
 	(pad "1" smd roundrect
 		(at -1.145 0)
