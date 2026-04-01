@@ -9,6 +9,7 @@
 * only to define the polarity of the component
 * limit the use of silkscreen to the minimum necessary to avoid overcrowding the PCB
 * keep enough spacing to soldermask opening
+* outline online for through hole components
 
 # Reference designator
 File → Footprint properties → General tab → Reference
