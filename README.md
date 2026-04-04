@@ -7,12 +7,17 @@ Sometimes when you modify the `#gplm.kicad_dbl` file, there is a typo and KiCad 
 `jq . \#gplm.kicad_dbl`
 
 ## Adding New Parts
-If the symbol and footprint already exist, adding a new part is simple as:
+### Footprint and Symbol already exist
+Adding a new part is simple as adding a line to the appropriate `csv` file and running 'update_db.sh'.  There's no need to restart KiCad.
 
-1. If you are adding a new part category, create a new `csv` file, then edit `update_db.sh` to add to the list of imports.
-2. Add a line to one of the `csv` files. The `csv` files should be sorted by `IPN`. This ensures the `IPN` is unique (which is the lib/db key), and merge operations are simpler if the file is always sorted.
-3. run `update_db.sh`
-4. No need to restart KiCad 9
+### Adding a new part category
+1. create a new `csv` file for that category (ex: `g-XXX.csv`)
+2. Edit `update_db.sh` to add to the list of imports.
+3. Add a line to one of the `csv` files. The `csv` files should be sorted by `IPN`. This ensures the `IPN` is unique (which is the lib/db key), and merge operations are simpler if the file is always sorted.
+4. Add the new category to the `#gplm.kicad_dbl` file. You can copy an existing category and modify it. The `kicad_dbl` file should be sorted by `category` (which is the lib/db key).
+4. run `update_db.sh`
+5. Check with **DB Browser for sqlite** if the category has been successfully added.
+5. Restart KiCad 9
 
 If you need to add a symbol or footprint, add to the matching `g-XXX.kicad_sym`, or `g-XXX.pretty` libraries.
 
@@ -27,7 +32,7 @@ This might seem overly complex, but it is actually pretty easy as SQLite3 can im
 
 `csv` files can be easily edited in [LibreOffice](https://www.libreoffice.org/) or [VisiData](https://www.visidata.org/). **Note, in LibreOffice make sure you import CSV files with character set as `UTF-8` (`UTF-7`, which seems to be the default, will cause bad things to happen)**
 
-A separate `csv` file is used for each [part category](https://github.com/git-plm/gitplm/blob/main/partnumbers.md#three-letter-category-code) (ex: `IND`, `RES`, `CAP`, etc.). There are several reasons for this:
+A separate `csv` file is used for each [part category](https://github.com/git-plm/parts/blob/main/partnumbers.md#three-letter-category-code) (ex: `IND`, `RES`, `CAP`, etc.). There are several reasons for this:
 
 Initially, this part database will be optimized for low-cost rapid prototyping at places like [JLCPCB](https://jlcpcb.com/) and [Seeed Studio](https://www.seeedstudio.com/fusion_pcb.html) using parts from:
 
