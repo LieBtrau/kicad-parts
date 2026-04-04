@@ -1,0 +1,112 @@
+(footprint "Resonator_SMD_Murata_SFECV-3Pin_6.9x2.9mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Murata SFECV, Resonator/Filter, 6.9x2.9mm package, SMD, generated with kicad-footprint-generator make_crystal.py, http://cdn-reichelt.de/documents/datenblatt/B400/SFECV-107.pdf")
+	(tags "ceramic")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "c6ef8d87-4e26-4c24-a73e-95c0dc8bcbbc")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Resonator_SMD_Murata_SFECV-3Pin_6.9x2.9mm"
+		(at 0 2.95 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5000d42b-9e2a-4431-afae-c9e62e841147")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fbbf4d2-b7ba-44eb-a744-2ed73435cfd6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebfa97a8-d7e5-4719-98f2-0a03c8ffbf90")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.75 -2.25)
+		(end 3.75 2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a98c3868-21e9-4898-8893-a3295bac2dd6")
+	)
+	(fp_poly
+		(pts
+			(xy 3.45 -1.45) (xy 3.45 1.45) (xy -2.725 1.45) (xy -3.45 0.725) (xy -3.45 -1.45)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1719043a-5523-43f9-884b-3a4522ff3129")
+	)
+	(pad "1" smd roundrect
+		(at -2.85 0)
+		(size 1.2 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "a7f27171-d6a2-4893-99a1-30a35f4c8254")
+	)
+	(pad "2" smd roundrect
+		(at 0 0)
+		(size 1.2 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "9a836ec6-d2b2-43f5-8090-e4e83f1e4960")
+	)
+	(pad "3" smd roundrect
+		(at 2.85 0)
+		(size 1.2 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "8593e1fd-d1ba-4f25-a195-a9ecf3b42187")
+	)
+	(embedded_fonts no)
+	(model "${GITPLM_PARTS}/3d-models/Resonator_SMD_Murata_SFECV-3Pin_6.9x2.9mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
