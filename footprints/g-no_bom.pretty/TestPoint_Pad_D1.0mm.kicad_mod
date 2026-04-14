@@ -6,14 +6,13 @@
 	(descr "SMD pad as test Point, diameter 1.0mm")
 	(tags "test point SMD pad")
 	(property "Reference" "REF**"
-		(at 0 -1.448 0)
-		(layer "F.SilkS")
-		(hide yes)
+		(at 0 0 0)
+		(layer "F.Fab")
 		(uuid "ed08342a-eaee-43e9-b96e-1dd00b47763e")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.5 0.5)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -77,18 +76,6 @@
 		(fill no)
 		(layer "F.Fab")
 		(uuid "b1073440-ded8-41b3-8aa2-d713716b92ed")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(uuid "ecb9d95d-c3e5-4a80-b7be-d742b8cad331")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-				(bold yes)
-			)
-		)
 	)
 	(pad "1" smd circle
 		(at 0 0)
