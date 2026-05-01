@@ -56,8 +56,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.5 -4.25)
-		(end -2.5 4.25)
+		(start -3 -4)
+		(end -3 4)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -66,8 +66,8 @@
 		(uuid "4247db8c-0850-4dc9-b060-e8f49b3415fd")
 	)
 	(fp_line
-		(start -2.5 4.25)
-		(end 1.75 4.25)
+		(start -3 4)
+		(end 1.75 4)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -76,8 +76,8 @@
 		(uuid "739ce46e-bf34-4739-be77-0aed0ef65ad0")
 	)
 	(fp_line
-		(start 1.75 -4.25)
-		(end -2.5 -4.25)
+		(start 1.75 -4)
+		(end -3 -4)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -86,8 +86,8 @@
 		(uuid "0c4f1ebb-deb9-4c13-b2f6-58c87feb0b12")
 	)
 	(fp_line
-		(start 2.1 -4.1)
-		(end 2.1 4.1)
+		(start 2.1 -3.35)
+		(end 2.1 3.35)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -95,9 +95,59 @@
 		(layer "Dwgs.User")
 		(uuid "3fa63ad1-6418-4623-97ae-38e1e6e03ccb")
 	)
+	(fp_line
+		(start 2.1 -3.35)
+		(end 3.8 -3.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "304db98e-3413-4341-8100-8f805456adc4")
+	)
+	(fp_line
+		(start 2.1 3.35)
+		(end 3.8 3.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "98ca67ed-2706-464e-8570-ba1f39bb8b41")
+	)
+	(fp_line
+		(start 3.8 -3.9)
+		(end 3.8 3.9)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "6d0a2c05-2f79-4656-a545-060e40c1db16")
+	)
+	(fp_line
+		(start 3.8 -3.35)
+		(end 3.8 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e080f3b8-04f8-48b9-8f9a-fb0aeefaa02b")
+	)
+	(fp_line
+		(start 3.8 3.35)
+		(end 3.8 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1291e2b8-edd0-4ee6-9728-8bbc340b06e1")
+	)
 	(fp_rect
-		(start -2.5 -4.25)
-		(end 11.75 4.25)
+		(start -2.5 -4)
+		(end 11.75 4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -107,8 +157,8 @@
 		(uuid "8a35cefc-9968-4ee0-8f20-054fe5e206b5")
 	)
 	(fp_rect
-		(start -2.5 -4.25)
-		(end 11.75 4.25)
+		(start -2.5 -4)
+		(end 11.75 4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -221,39 +271,103 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at 0 0 90)
-		(size 1.27 3.2)
+		(at -0.25 0 90)
+		(size 1.27 3.7)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1968503937)
 		(uuid "da42a6dc-b25a-4b06-90b9-18421a445d40")
 	)
 	(pad "2" smd roundrect
-		(at -0.25 -2.825 90)
-		(size 1.35 3.7)
+		(at -0.5 -2.6 90)
+		(size 1.8 4.2)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1851851852)
 		(uuid "34343da3-e75a-42a7-829f-0fbb10d93d55")
 	)
 	(pad "2" smd roundrect
-		(at -0.25 -2.825 90)
-		(size 1.35 3.7)
+		(at -0.5 -2.6 90)
+		(size 1.8 4.2)
 		(layers "B.Cu" "B.Mask")
 		(roundrect_rratio 0.1851851852)
 		(uuid "12d96aed-45ce-490e-8194-62b7dc467432")
 	)
 	(pad "2" smd roundrect
-		(at -0.25 2.825 90)
-		(size 1.35 3.7)
+		(at -0.5 2.6 90)
+		(size 1.8 4.2)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.1851851852)
 		(uuid "b9d9dd5e-b422-4225-b2b0-84e13b78fe37")
 	)
 	(pad "2" smd roundrect
-		(at -0.25 2.825 90)
-		(size 1.35 3.7)
+		(at -0.5 2.6 90)
+		(size 1.8 4.2)
 		(layers "B.Cu" "B.Mask")
 		(roundrect_rratio 0.1851851852)
 		(uuid "c28c778c-7cfe-49b1-8bdc-9dfd6454e666")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "439bdcfc-4d73-45dc-ad20-7a7574ae7a99")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.3 -1.6) (xy 1.6 -1.6) (xy 1.6 -0.7) (xy -2.3 -0.7)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "1a298be0-bf7e-4d17-98bf-d541376fcf64")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.3 0.7) (xy 1.6 0.7) (xy 1.6 1.6) (xy -2.3 1.6)
+			)
+		)
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Connector_Coaxial.3dshapes/SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount.step"
