@@ -1,2 +1,2 @@
 "IPN","MPN","Value","Manufacturer","Description","Symbol","Footprint","Current","Voltage","Datasheet","LCSC"
-"CPD-0000-0000","D1213A-01T-7","3V3","Diodes Incorporated","TVS DIODE 3.3VWM 10VC SOD523","g-cpd:D_TVS_1213","g-dio:D_SOD-323",5,3.3,"https://www.diodes.com/assets/Datasheets/D1213A-01T.pdf","C460584"
+"CPD-0000-0000","D1213A-01T-7","3V3","Diodes Incorporated","TVS DIODE 3.3VWM 10VC SOD523","g-cpd:D_TVS_1213","g-dio:D_SOD-523",5,3.3,"https://www.diodes.com/assets/Datasheets/D1213A-01T.pdf","C460584"
