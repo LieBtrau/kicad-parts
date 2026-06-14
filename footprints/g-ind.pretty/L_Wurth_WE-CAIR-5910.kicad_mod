@@ -124,6 +124,38 @@
 		(thermal_bridge_angle 45)
 		(uuid "f280bd06-5c70-4d0e-a22d-ce9fd8d5b9ab")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "6696b5ac-f6db-4059-b26e-cc67fe02b346")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -3.2 -3.2) (xy 3.3 -3.2) (xy 3.3 3.2) (xy -3.2 3.2)
+			)
+		)
+	)
 	(embedded_fonts no)
 	(model "${GITPLM_PARTS}/3d-models/WE-CAIR-5910+(rev1).stp"
 		(offset

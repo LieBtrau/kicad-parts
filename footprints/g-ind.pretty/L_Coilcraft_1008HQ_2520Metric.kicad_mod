@@ -89,6 +89,38 @@
 		(roundrect_rratio 0.245098)
 		(uuid "2fb610c9-24e4-461b-8137-89ddad48b01c")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "9d463a67-095f-41df-9d55-10677dd05353")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -0.635 -1.5) (xy 0.6 -1.5) (xy 0.6 1.5) (xy -0.6 1.5)
+			)
+		)
+	)
 	(embedded_fonts no)
 	(model "${GITPLM_PARTS}/3d-models/L_Coilcraft_1008HQ.stp"
 		(offset

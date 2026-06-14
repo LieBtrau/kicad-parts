@@ -1,0 +1,277 @@
+(footprint "C_Trimmer_Voltronics_JZ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf")
+	(tags " Voltronics JR")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b89e7d5e-a3ea-47f2-aa7f-72523a0539ac")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "C_Trimmer_Voltronics_JZ"
+		(at 0 2.85 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "925a99a2-0511-4abc-9c59-4257c9a116ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "210b2d8c-cd93-4547-ad0f-9d729df85fcf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f963d800-5ecf-44da-8138-0b99af190b53")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.375 -1)
+		(end -1.625 -1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9733d394-9e6a-460b-bb07-389f8dc51974")
+	)
+	(fp_line
+		(start -2.375 1)
+		(end -1.625 1.75)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8b43bb76-3994-431c-8f09-1e7168c24ffb")
+	)
+	(fp_rect
+		(start -2.5 -2)
+		(end 2.5 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8ab8e067-7088-45d4-9fe3-a7d4b510e8ef")
+	)
+	(fp_line
+		(start -2.25 -1)
+		(end -1.95 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f1e533a-5060-4ba5-b510-2f7251eadc94")
+	)
+	(fp_line
+		(start -2.25 1)
+		(end -2.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2bacbb5-e82b-4a9f-a495-65fe83cfd098")
+	)
+	(fp_line
+		(start -1.95 -1.3)
+		(end -1.65 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "080ea0c6-1202-4a36-bc56-52685d160345")
+	)
+	(fp_line
+		(start -1.95 1.3)
+		(end -2.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "92862520-5ca3-4f78-bdbc-c1cfcc498844")
+	)
+	(fp_line
+		(start -1.65 -1.6)
+		(end 2.24 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6b9ea7d9-16e7-40d6-a687-93ccf608e018")
+	)
+	(fp_line
+		(start -1.65 1.6)
+		(end -1.95 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a441973-c32b-4414-bd75-2e07f3a26ebf")
+	)
+	(fp_line
+		(start 2.24 -1.6)
+		(end 2.25 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3f99cc23-8bb8-45f4-88b9-3bfe4bc995f2")
+	)
+	(fp_line
+		(start 2.24 1.6)
+		(end -1.65 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e6acd5dd-f6e8-456a-b304-43591697382d")
+	)
+	(fp_line
+		(start 2.25 -1.6)
+		(end 2.25 -1.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9f33b2b5-f9b4-41b3-8b79-aa13c59a4258")
+	)
+	(fp_line
+		(start 2.25 -1.59)
+		(end 2.25 1.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c8856a63-19ab-4687-b806-25d78cb4c953")
+	)
+	(fp_line
+		(start 2.25 1.59)
+		(end 2.25 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "22ac898d-a9f2-42c0-84d4-de2f19d59ec7")
+	)
+	(fp_line
+		(start 2.25 1.6)
+		(end 2.24 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "10de2600-4630-4ad3-9bfd-76648243433e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dbd7b9e9-2699-4058-a871-4733d15b28bd")
+	)
+	(pad "1" smd roundrect
+		(at -1.95 0)
+		(size 0.9 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "5c51d41c-a193-423a-bf2f-89d487bda94d")
+	)
+	(pad "2" smd roundrect
+		(at 1.95 0)
+		(size 0.9 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "dcd17a69-c145-49c9-b5d1-d041ef1e184a")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "aa02013b-8b92-4d06-a4f3-3a5e81a6c1c3")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 2.5 -2) (xy 2.5 -0.75) (xy 1.5 -0.75) (xy 1.5 0.75) (xy 2.5 0.75) (xy 2.5 2) (xy -2.5 2) (xy -2.5 0.75)
+				(xy -1.5 0.75) (xy -1.5 -0.75) (xy -2.5 -0.75) (xy -2.5 -2)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_Trimmer_Voltronics_JZ.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

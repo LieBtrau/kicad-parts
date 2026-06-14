@@ -97,6 +97,70 @@
 		(roundrect_rratio 0.208333)
 		(uuid "8593e1fd-d1ba-4f25-a195-a9ecf3b42187")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "94ddd85a-5eae-47b3-b36b-122da6923491")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -2.2 -2.2) (xy -0.7 -2.2) (xy -0.7 2.2) (xy -2.2 2.2)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "e9c8651c-630f-4324-b575-39605508db61")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0.7 -2.2) (xy 2.2 -2.2) (xy 2.2 2.2) (xy 0.7 2.2)
+			)
+		)
+	)
 	(embedded_fonts no)
 	(model "${GITPLM_PARTS}/3d-models/Resonator_SMD_Murata_SFECV-3Pin_6.9x2.9mm.wrl"
 		(offset

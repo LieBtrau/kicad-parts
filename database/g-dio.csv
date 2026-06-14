@@ -3,3 +3,4 @@
 "DIO-0000-0001","1SV325,H3F(T","1SV325","Toshiba Semiconductor and Storage","DIODE VARACTOR 10V SINGLE ESC","g-dis:D_Capacitance_Filled","g-dio:D_SOD-523","/","10V","https://toshiba.semicon-storage.com/info/docget.jsp?did=2860&prodName=1SV325","C4153758"
 "DIO-0000-0002","BB133","BB133","Shikues","Diode VARACTOR 30V SINGLE ","g-dis:D_Capacitance_Filled","g-dio:D_SOD-323","/","30V","https://www.lcsc.com/datasheet/C5334579.pdf","C5334579"
 "DIO-0001-0000","1N4148WS","1N4148","Jiangsu Changjing Electronics Technology Co., Ltd.","1.25V@150mA 100V 150mA 1uA@75V 200mW 2A 4ns Independent SOD-323 Switching Diodes ROHS","g-dis:D_RECT","g-dio:D_SOD-323",0.15,"100V","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707645122699264","C2128"
+"DIO-0002-0000","BZX584C3V0","3V0","MOT","DIODE ZENER 3V 150mW SOD-523","g-dis:D_Zener_Filled","g-dio:D_SOD-523",5.00E-03,"3V","https://www.vishay.com/docs/85793/bzx584c-series.pdf","C6771811"

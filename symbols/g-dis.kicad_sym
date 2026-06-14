@@ -15,7 +15,6 @@
 		(on_board yes)
 		(property "Reference" "D"
 			(at 1.27 2.54 0)
-			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24,7 +23,6 @@
 		)
 		(property "Value" ".Value"
 			(at 1.27 -3.302 0)
-			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,7 +399,6 @@
 		(on_board yes)
 		(property "Reference" "D"
 			(at 1.27 2.54 0)
-			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -410,7 +407,6 @@
 		)
 		(property "Value" ".Value"
 			(at 1.27 -2.54 0)
-			(do_not_autoplace)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,6 +541,371 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "D_Zener_Filled"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 1.27 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ".Value"
+			(at 1.27 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at -5.08 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode, filled shape"
+			(at 0 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "diode"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "D_Zener_Filled_0_1"
+			(polyline
+				(pts
+					(xy 0 -0.635) (xy -0.635 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -0.635) (xy 0 0.635) (xy 0.508 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -1.27) (xy 2.54 1.27) (xy 0 0) (xy 2.54 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+		)
+		(symbol "D_Zener_Filled_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Q_NJFET_DSG"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 5.08 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ".Value"
+			(at 5.08 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 5.08 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 5.08 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-JFET transistor, drain/source/gate"
+			(at 17.78 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "transistor NJFET N-JFET"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Q_NJFET_DSG_0_1"
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy -1.524 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy -0.762 0.381) (xy -0.762 -0.381) (xy 0.254 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.27 0)
+				(radius 2.8194)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 1.397) (xy 0.254 1.397)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 -1.27) (xy 0.254 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Q_NJFET_DSG_1_1"
+			(pin input line
+				(at -5.08 0 0)
+				(length 3.556)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Q_NMOS_GSD"
 		(pin_names
 			(offset 0)
@@ -562,7 +923,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VAL**"
+		(property "Value" ".Value"
 			(at 5.08 0 0)
 			(effects
 				(font
@@ -627,7 +988,7 @@
 					(xy 0.254 0) (xy -2.54 0)
 				)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 					(color 0 0 255 1)
 				)
@@ -679,7 +1040,7 @@
 					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
 				)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 					(color 0 0 255 1)
 				)
@@ -754,7 +1115,7 @@
 					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
 				)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 					(color 0 0 255 1)
 				)
@@ -865,7 +1226,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VAL**"
+		(property "Value" ".Value"
 			(at 5.08 -1.27 0)
 			(effects
 				(font
@@ -918,7 +1279,7 @@
 					(xy -2.54 0) (xy 0.635 0)
 				)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 					(color 0 0 255 1)
 				)
@@ -944,7 +1305,7 @@
 					(xy 0.635 0.635) (xy 2.54 2.54)
 				)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 					(color 0 0 255 1)
 				)
@@ -957,7 +1318,7 @@
 					(xy 0.635 -0.635) (xy 2.54 -2.54)
 				)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 					(color 0 0 255 1)
 				)
