@@ -1,6 +1,6 @@
 # Pad
 * Rounded rectangle
-* 10% rounding
+* Corner Radius Ratio : 0.1
 
 # Silkscreen
 * Layer : F.SilkScreen
@@ -30,3 +30,6 @@ File → Footprint properties → General tab → Reference
 * Layer : F.Fab
 * Line width : 0.1mm
 * Shape : follow component outline (esp. to mark the polarity of the component or the position of the pin 1)
+
+# Rule areas
+* Add keepout areas on top copper for high frequency inductive components (e.g. inductors, transformers) to prevent unwanted coupling and interference.  Make sure "keepout pour" is enabled.

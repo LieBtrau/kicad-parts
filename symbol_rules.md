@@ -6,7 +6,14 @@ File → Symbol properties → General tab → Value
 * Grid : 100
 * Length : 100
 
-# Drawing
+# Text
+* Value : .Value
+* Reference designator
+
+Enable "allow automatic placement" for both, so that when rotating the component, the text remains horizontal.
+
+# Graphics
+* Line width : 10 mil
 * For discrete components, draw the symbol in RGB =(0,0,255) (blue) 
 * For integrated circuits : 
   * Border color : width=10, default color = RGB=(132,0,0) (dark red)
