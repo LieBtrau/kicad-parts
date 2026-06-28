@@ -8,4 +8,6 @@
 "IND-0002-0392","MWI1008UC3R9JST-HF","MYX","FIXED IND 3.9uH 1008","g-pas:L","g-ind:L_Coilcraft_1008HQ_2520Metric","3µ9",0.0000039,0.26,"https://www.lcsc.com/datasheet/C48946591.pdf","C48946591"
 "IND-0002-0682","FHW1008UC6R8JGT","FH","FIXED IND 6.8uH 200mA 8.2Ω 1008","g-pas:L","g-ind:L_Coilcraft_1008HQ_2520Metric","6µ8",0.0000068,0.2,"https://www.lcsc.com/datasheet/C318026.pdf","C318026"
 "IND-0002-0822","MWI1008UC8R2JST-HF","MYX","FIXED IND 8.2uH 1008","g-pas:L","g-ind:L_Coilcraft_1008HQ_2520Metric","8µ2",0.0000082,0.17,"https://www.lcsc.com/datasheet/C48946595.pdf","C48946595"
-"IND-0003-0473","ACMA3225POC-470M","KOHERelec","FIXED IND 47uH SMD,3.2x2.5mm","g-pas:L","g-ind:L_Murata_LQW32FT_3225","47µ",4.70E-05,0.3,"https://www.lcsc.com/datasheet/C42408080.pdf","C42408080"
+"IND-0003-0682","CWP3230A-6R8M ","BOURNS","1.36A 6.8uH ±20% 1.4A 200mΩ Wire-wound chip inductor 1210 Fixed Inductors RoHS","g-pas:L","g-ind:L_Murata_LQW32FT_3225","6µ8",0.0000068,1.4,"https://www.lcsc.com/datasheet/C23491588.pdf","C23491588"
+"IND-0003-0183","AHW3225F-180KTF","APV","FIXED IND 18uH 215mA 2.05Ω 1210","g-pas:L","g-ind:L_Murata_LQW32FT_3225","18µ",1.80E-05,0.215,"https://www.lcsc.com/datasheet/C18184940.pdf","C18184940"
+"IND-0003-0473","ACMA3225POC-470M","KOHERelec","FIXED IND 47uH SMD,3.2x2.5mm","g-pas:L","g-ind:L_Murata_LQW32FT_3225","47µ",0.000047,0.3,"https://www.lcsc.com/datasheet/C42408080.pdf","C42408080"
