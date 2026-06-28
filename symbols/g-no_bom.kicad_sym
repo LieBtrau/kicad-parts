@@ -271,7 +271,7 @@
 		)
 		(symbol "TestPoint_0_1"
 			(circle
-				(center 0 3.302)
+				(center 0 2.54)
 				(radius 0.762)
 				(stroke
 					(width 0)
@@ -284,8 +284,8 @@
 		)
 		(symbol "TestPoint_1_1"
 			(pin passive line
-				(at 0 0 90)
-				(length 2.54)
+				(at 0 2.54 90)
+				(length 0)
 				(name "1"
 					(effects
 						(font
