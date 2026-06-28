@@ -1,2 +1,3 @@
-IPN,Value,MPN,Manufacturer,Description,Symbol,Footprint,Datasheet,LCSC,MPN2
-RFM-0000-0001,3670128,3670128,Würth Elektronik,WE-SHC TWO-PIECE SEAMLESS SHIELD,g-rfm:RFShield_TwoPieces,g-rfm:H_Wurth_WE-SHC-SEAMLESS-FRAME_3670128,https://www.we-online.com/components/products/datasheet/3670128.pdf,C4365834,MS128-10F
+"IPN","Value","MPN","Manufacturer","Description","Symbol","Footprint","Datasheet","LCSC","MPN2"
+"RFM-0000-0001",3670128,3670128,"Würth Elektronik","WE-SHC TWO-PIECE SEAMLESS SHIELD","g-rfm:RFShield_TwoPieces","g-rfm:H_Wurth_WE-SHC-SEAMLESS-FRAME_3670128","https://www.we-online.com/components/products/datasheet/3670128.pdf","C4365834","MS128-10F"
+"RFM-0000-0010","S0991-46R","ASP-X1208-CB1","XUNPU","SMD RFI and EMI - Contacts, Fingerstock and Gaskets RoHS","g-rfm:RF_Shield_Clip","g-rfm:H_Harwin_S0991-46R","https://www.lcsc.com/datasheet/C30605059.pdf","C30605059","S0991-46R"
