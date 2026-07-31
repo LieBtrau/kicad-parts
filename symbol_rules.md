@@ -1,16 +1,17 @@
-# Value
-File → Symbol properties → General tab → Value
-* Value : VAL**
-
 # Pins
 * Grid : 100
 * Length : 100
 
 # Text
-* Value : .Value
-* Reference designator
+* Alignment : Center for discrete components, Left for integrated circuits
+* Enable "allow automatic placement" for both, so that when rotating the component, the text remains horizontal.
 
-Enable "allow automatic placement" for both, so that when rotating the component, the text remains horizontal.
+## Value
+File → Symbol properties → General tab → Value
+* Value : VAL**
+
+## Reference designator
+* Reference designator
 
 # Graphics
 * Line width : 10 mil
