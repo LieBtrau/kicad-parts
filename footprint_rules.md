@@ -18,6 +18,7 @@ File → Footprint properties → General tab → Reference
 * Width : 0.5mm
 * Height : 0.5mm
 * Thickness : 0.1mm
+* Keep upright : checked (so that the reference designator is always readable from left to right or bottom to top (as seen from the right))
 
 # Courtyard
 * Layer : F.Courtyard
