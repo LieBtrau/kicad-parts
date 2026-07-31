@@ -1,14 +1,14 @@
 (footprint "LED_0805_2012Metric"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 	(tags "LED")
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "53fbb583-652a-4c8d-b396-2315413dd0ab")
+		(uuid "06576d77-b44a-42b9-92e2-e129d0cbec0f")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -20,7 +20,7 @@
 		(at 0 1.65 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "66692dc2-8756-480a-a89b-6936f677e6b8")
+		(uuid "d9463b90-1b7b-492f-a9a6-4a8a694d8ade")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3acf8aba-7577-4570-a332-1861c9111e21")
+		(uuid "574ad5aa-6c2d-4ac1-8770-cc86e1a37fad")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "11991b12-cd1d-4eea-9fe2-ae91c8a6ead1")
+		(uuid "3e773aa3-e400-4447-8cc2-bcee62769472")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -1.4 -1)
 		(end -0.5 -0.9)
@@ -62,7 +63,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "4f313570-4b80-4c0c-adb1-8948ee7b522d")
+		(uuid "5d54ffa8-e761-4e45-bfbf-da9ce8c6b103")
 	)
 	(fp_rect
 		(start -1.4 0.9)
@@ -73,7 +74,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "f9f5c9e4-65ec-43bf-b1ec-b503306b6b01")
+		(uuid "c2ee4609-511e-4d85-a175-1b11257287bc")
 	)
 	(fp_rect
 		(start -1.5 -1)
@@ -84,7 +85,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "fb69c300-7a43-4336-8d3c-9560581100d3")
+		(uuid "f29f679e-6f3c-4055-a820-7bfcd1bf7f8f")
 	)
 	(fp_line
 		(start -1 -0.3)
@@ -94,7 +95,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a250a7df-134b-4b29-acd9-bf683250bd56")
+		(uuid "0f691e11-f0ba-4078-943e-03c240832d6d")
 	)
 	(fp_line
 		(start -1 0.6)
@@ -104,7 +105,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "ca9ba332-9b86-489d-bacd-2b985c8a0fa2")
+		(uuid "02c6ab59-f8ea-46c5-890c-47e01d91ed71")
 	)
 	(fp_line
 		(start -0.7 -0.6)
@@ -114,7 +115,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6325e952-a71e-4433-921b-a3d80b58f51e")
+		(uuid "d3f8791b-cc15-4482-b153-f2ac763d8f34")
 	)
 	(fp_line
 		(start 1 -0.6)
@@ -124,7 +125,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "86437078-00d5-42d5-8928-719017dc59ad")
+		(uuid "d4a57ecd-3522-4b10-87a3-799543df015c")
 	)
 	(fp_line
 		(start 1 0.6)
@@ -134,21 +135,21 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "76c94a25-7b40-4223-aea5-d73484b771a5")
+		(uuid "996446a9-2de5-4272-ab9c-babc0f20feeb")
 	)
 	(pad "1" smd roundrect
 		(at -0.9375 0)
 		(size 0.975 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "99d61606-cf02-431c-87ca-ec8239ebb579")
+		(uuid "6679019d-880f-46b1-be2d-83df3b216ad9")
 	)
 	(pad "2" smd roundrect
 		(at 0.9375 0)
 		(size 0.975 1.4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "2010e193-caaa-425b-a9c0-f119d012cf6d")
+		(uuid "18ec8d4c-7d54-4e39-a64b-71d76cf9f484")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0805_2012Metric.step"

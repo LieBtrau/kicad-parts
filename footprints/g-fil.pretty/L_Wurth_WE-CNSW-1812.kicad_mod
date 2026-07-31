@@ -1,0 +1,179 @@
+(footprint "L_Wurth_WE-CNSW-1812"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Common Mode Line Filter, body 3.2x4.5x2.8mm, https://www.we-online.com/en/components/products/WE-CNSW#/articles/WE-CNSW-1812")
+	(tags "SMT")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ed3cbd71-7bcf-4428-8dd3-15db281292d6")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "L_Wurth_WE-CNSW-1812"
+		(at 0 3.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a94920c-ad72-4597-b53d-dabc6e1ab874")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acb01b08-a8d9-4f77-83e1-8b0877f0b0b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c8e48ea-7faf-4ae8-a7f3-3f97d2f71b44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2 -2.5)
+		(end 2 2.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "4f02e11a-ebce-45a5-8cec-daa81f5412df")
+	)
+	(fp_line
+		(start -1.6 -2.25)
+		(end -1.6 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "277dda5b-f14d-4b46-95a0-112ce5a9a11b")
+	)
+	(fp_line
+		(start -1.6 2.25)
+		(end 1.6 2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d07059f4-73a0-483c-b7f9-602bab97f690")
+	)
+	(fp_line
+		(start 1.6 -2.25)
+		(end -1.6 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3f3b1f5-ec57-4cb4-8f69-05ff3e214cad")
+	)
+	(fp_line
+		(start 1.6 2.25)
+		(end 1.6 -2.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5b53521-8f88-49a6-a594-73f10be3d9c3")
+	)
+	(pad "1" smd roundrect
+		(at -1.125 -1.825)
+		(size 1.55 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "99e8eae2-f0c4-474d-92df-9fd7d6ced146")
+	)
+	(pad "2" smd roundrect
+		(at -1.125 1.825)
+		(size 1.55 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "24924021-9e76-451c-8c7f-c304ff552e00")
+	)
+	(pad "3" smd roundrect
+		(at 1.125 1.825)
+		(size 1.55 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "55721a4f-e704-47e3-b76b-71261b045348")
+	)
+	(pad "4" smd roundrect
+		(at 1.125 -1.825)
+		(size 1.55 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "4f012d6a-a6d2-4838-aafb-a5de714ea283")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "05f46a72-4ab0-47c8-9747-32c23584bb41")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -2 -1.25) (xy 2 -1.25) (xy 2 1.25) (xy -2 1.25)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${GITPLM_PARTS}/3d-models/L_Wurth_WE-CNSW-1812.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

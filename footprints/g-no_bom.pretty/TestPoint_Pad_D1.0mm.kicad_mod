@@ -1,14 +1,14 @@
 (footprint "TestPoint_Pad_D1.0mm"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "SMD pad as test Point, diameter 1.0mm")
 	(tags "test point SMD pad")
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "ed08342a-eaee-43e9-b96e-1dd00b47763e")
+		(uuid "6a069e4b-ccad-4b1c-9643-d83348165f6f")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -20,7 +20,7 @@
 		(at 0 1.55 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a41410ba-6764-40d3-8271-3889cd1f68dc")
+		(uuid "5a0cf831-a5e8-4000-a08b-3cc8076699ae")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bbd00a64-0ad7-4134-9e20-451eedc76ac1")
+		(uuid "a4aecb31-fac7-4256-aa2b-962d1de4ebc4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a133e317-3bd7-4ca7-93e3-03b03f97dc95")
+		(uuid "e158e4fd-c487-43d0-b974-9c1fb002113f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,6 +55,7 @@
 		)
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
 		(end 1 0)
@@ -64,7 +65,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "f02f025d-d308-4e0d-bc6c-e230724bf915")
+		(uuid "447bcae5-cfcc-49f7-8e6e-908ef890e3a9")
 	)
 	(fp_circle
 		(center 0 0)
@@ -75,13 +76,14 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "b1073440-ded8-41b3-8aa2-d713716b92ed")
+		(uuid "5a16056b-d506-46ce-9279-aa4061dd3d5e")
 	)
 	(pad "1" smd circle
 		(at 0 0)
 		(size 1 1)
+		(property pad_prop_testpoint)
 		(layers "F.Cu" "F.Mask")
-		(uuid "bab732e9-e79a-410d-8a2b-e7d9e8d299bb")
+		(uuid "1011f052-88d4-47ae-b0b5-18f2715366b5")
 	)
 	(embedded_fonts no)
 )

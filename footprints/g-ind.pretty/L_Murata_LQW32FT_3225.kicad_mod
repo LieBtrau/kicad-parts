@@ -1,13 +1,12 @@
 (footprint "L_Murata_LQW32FT_3225"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "3dcb963f-25cb-42e7-9b88-819ebadb6363")
+		(uuid "f6a4427f-4007-40fc-a914-e7357d18f78b")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -20,7 +19,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0f613e8a-a274-4c85-8b37-5b62c010d2e0")
+		(uuid "0093ada6-b1c1-45a7-994f-ed9eae0e5843")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ade4add4-a21a-480f-be8b-ddbfae3c5251")
+		(uuid "f4e6af88-92ae-4dac-8103-39c7e0c81b08")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "93343b86-b0aa-40a5-81e9-df5ea4db85ae")
+		(uuid "b09a5e15-d539-4aec-940f-33af3f034849")
 		(effects
 			(font
 				(size 1 1)
@@ -55,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -2.25 -1.5)
 		(end 2.25 1.5)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "a7eddfe0-5879-4e65-a751-62f3c81ae325")
+		(uuid "26f55cd2-b234-40a0-a972-eb223e04da0b")
 	)
 	(fp_rect
 		(start -2 -1.25)
@@ -75,33 +75,30 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "c6fa1fbf-b215-4b37-a421-82139dd07b54")
+		(uuid "e04688b9-7a41-417e-a6fb-6206774ac433")
 	)
 	(pad "1" smd roundrect
 		(at -1.55 0)
 		(size 0.9 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
-		(uuid "37628c5d-26fb-4e22-be58-aed8aa54fe75")
+		(uuid "667aa93d-a567-43c7-b32c-1f9e2fa28a1d")
 	)
 	(pad "2" smd roundrect
 		(at 1.55 0)
 		(size 0.9 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1)
-		(uuid "e73780e7-7c73-466b-9af0-3e0708af83e2")
+		(uuid "66407d77-517f-48bc-9b8c-fca1cf3957db")
 	)
 	(zone
-		(net 0)
-		(net_name "")
 		(layer "F.Cu")
-		(uuid "735f705c-4def-40a5-82a6-620ce4f6cbc3")
+		(uuid "04885c79-c2a4-4686-a494-fffbd03059b2")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
 		)
 		(min_thickness 0.25)
-		(filled_areas_thickness no)
 		(keepout
 			(tracks not_allowed)
 			(vias not_allowed)
@@ -116,6 +113,7 @@
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
 		)
 		(polygon
 			(pts

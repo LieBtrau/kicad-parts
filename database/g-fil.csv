@@ -1,2 +1,3 @@
 "IPN","MPN","Manufacturer","Description","Class","Value","Symbol","Footprint","Datasheet","LCSC"
 "FIL-0000-1076","HCFF3-10.700-F150IL10AL","HCI","Ceramic filter 10.7MHz, 150kHz BW, 10dB IL","CERAMIC","10.7M","g-pas:Y_Resonator_Small","g-fil:Resonator_SMD_Murata_SFECV-3Pin_6.9x2.9mm","https://www.lcsc.com/datasheet/C42392419.pdf","C42392419"
+"FIL-1000-0000","APWB4532-220T2","APV","22uH@100KHz 1Ω 2 1812 Common Mode Chokes RoHS","CM-choke","22µ","g-ind:FL_CM-choke","g-fil:L_Wurth_WE-CNSW-1812","https://www.lcsc.com/datasheet/C6364839.pdf","C6364839"

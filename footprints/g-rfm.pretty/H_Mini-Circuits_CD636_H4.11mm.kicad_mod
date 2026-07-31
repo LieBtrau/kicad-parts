@@ -1,0 +1,185 @@
+(footprint "H_Mini-Circuits_CD636_H4.11mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "https://ww2.minicircuits.com/case_style/CD636.pdf")
+	(tags "RF Transformer")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0235e420-f9c6-4cd3-a08c-7d02222911bd")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "H_Mini-Circuits_CD636_H4.11mm"
+		(at 0 5.08 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "330552a5-f50a-4612-bdc2-f734bca45661")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3863c775-d948-42c7-886e-79401bdc4b14")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be58fe8f-9b36-4439-861c-a311549433c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -2.75 -3.75)
+		(end -2.74 -3.75)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d122faea-57eb-452a-b00b-79a9aed1ac53")
+	)
+	(fp_rect
+		(start -4 -4.25)
+		(end 4 4.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "56c1fc69-c2f2-4c16-b464-9b9c866ca072")
+	)
+	(fp_line
+		(start -2.794 3.937)
+		(end -2.794 -2.937)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3cd3432b-593f-41f5-a64b-55176093c20a")
+	)
+	(fp_line
+		(start -1.794 -3.937)
+		(end -2.794 -2.937)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "36eb7750-d5e2-4cee-80d7-3cf5b29825f4")
+	)
+	(fp_line
+		(start -1.794 -3.937)
+		(end 2.794 -3.937)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3f596d38-453b-498b-b99f-3381bfd13db6")
+	)
+	(fp_line
+		(start 2.794 -3.937)
+		(end 2.794 3.937)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de8f76c3-7941-44c5-8d26-bc8034deee51")
+	)
+	(fp_line
+		(start 2.794 3.937)
+		(end -2.794 3.937)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ba1adb59-1d2e-48ef-a25e-dfd459ceae1f")
+	)
+	(pad "1" smd roundrect
+		(at -2.54 -2.54)
+		(size 2.54 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "ad642d77-562d-4025-b184-a0a2331f89ba")
+	)
+	(pad "2" smd roundrect
+		(at -2.54 0)
+		(size 2.54 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "555da082-1ed8-47ac-bfed-19072bccc4c6")
+	)
+	(pad "3" smd roundrect
+		(at -2.54 2.54)
+		(size 2.54 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "0326db83-f91b-406c-beaf-01da693999f5")
+	)
+	(pad "4" smd roundrect
+		(at 2.54 2.54)
+		(size 2.54 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "02eb4221-5812-4a51-b3a8-5692203145e0")
+	)
+	(pad "5" smd roundrect
+		(at 2.54 0)
+		(size 2.54 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "eeb6495c-0230-49b5-940d-b968863bc2f8")
+	)
+	(pad "6" smd roundrect
+		(at 2.54 -2.54)
+		(size 2.54 1.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "27772ea2-ee36-4484-acb6-3a8e3f60dc60")
+	)
+	(embedded_fonts no)
+	(model "${GITPLM_PARTS}/3d-models/H_Minicircuits_CD636_MNC.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
