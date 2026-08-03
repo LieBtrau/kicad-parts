@@ -45,8 +45,3 @@ Initially, this part database will be optimized for low-cost rapid prototyping a
 - `database` - CSV files and the SQLite3 database file
 - `symbols` - custom KiCad symbols
 - `footprints` - custom KiCad footprints
-
-## Guidelines
-### Reference designators
-* [KiCad Library Conventions](https://klc.kicad.org/symbol/s6/s6.1/)
-* [Wikipedia](https://en.wikipedia.org/wiki/Reference_designator)

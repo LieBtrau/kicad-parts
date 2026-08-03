@@ -11,7 +11,8 @@ File → Symbol properties → General tab → Value
 * Value : VAL**
 
 ## Reference designator
-* Reference designator
+* [KiCad Library Conventions](https://klc.kicad.org/symbol/s6/s6.1/)
+* [Wikipedia](https://en.wikipedia.org/wiki/Reference_designator)
 
 # Graphics
 * Line width : 10 mil
