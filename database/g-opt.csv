@@ -1,2 +1,3 @@
-"IPN","MPN","Manufacturer","Description","Symbol","Footprint","Color","I-forward-max","V-forward","Wavelength","Datasheet","LCSC"
-"OPT-0000-0000","KT-0805G","Hubei KENTO Elec","Emerald Green 0805 LED Indication – Discrete","g-dis:LD_LED_Filled","g-opt:LED_0805_2012Metric","GRN","30mA","2.6V","525nm","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8639582106239348736","C2297"
+"IPN","MPN","Manufacturer","Description","Symbol","Footprint","Color","I-forward-max","V-forward","Wavelength","Datasheet","LCSC","TME"
+"OPT-0000-0000","KT-0805G","Hubei KENTO Elec","Emerald Green 0805 LED Indication – Discrete","g-opt:LD_LED_Filled","g-opt:LED_0805_2012Metric","GRN","30mA","2.6V","525nm","https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8639582106239348736","C2297",
+"OPT-0001-0000","GT JTLPS1.13-KKLN-25-1-150-R33","OSRAM","150mA White Lens 525nm Green 3V SMD3528-2P LED Color Lighting RoHS","g-opt:LD_LED_Filled","g-opt:LED_PLCC_2835","GRN","150mA","3.0V","525nm","https://www.lcsc.com/datasheet/C17637249.pdf","C17637249",

@@ -11,4 +11,5 @@
 "IND-0003-0682","CWP3230A-6R8M ","BOURNS","1.36A 6.8uH ±20% 1.4A 200mΩ Wire-wound chip inductor 1210 Fixed Inductors RoHS","g-pas:L","g-ind:L_Murata_LQW32FT_3225","6µ8",0.0000068,1.4,"https://www.lcsc.com/datasheet/C23491588.pdf","C23491588",
 "IND-0003-0183","AHW3225F-180KTF","APV","FIXED IND 18uH 215mA 2.05Ω 1210","g-pas:L","g-ind:L_Murata_LQW32FT_3225","18µ",0.000018,0.215,"https://www.lcsc.com/datasheet/C18184940.pdf","C18184940",
 "IND-0003-0473","ACMA3225POC-470M","KOHERelec","FIXED IND 47uH SMD,3.2x2.5mm","g-pas:L","g-ind:L_Murata_LQW32FT_3225","47µ",0.000047,0.3,"https://www.lcsc.com/datasheet/C42408080.pdf","C42408080","C907956"
+"IND-0004-0105",74404064102,"Würth Elektronik","FIXED IND 1000 µH 0.3A 4783 mOhm","g-pas:L","g-ind:L_Wurth_WE-LQS-6045","1m",1.00E-03,0.3,"https://www.we-online.com/components/products/datasheet/74404064102.pdf","C5339743","/"
 "IND-1000-0000","GA050G00","CND-tek","SMD PULSE TRANSFORMER, 1G BASE-T Applications, Surface Mount Type","g-ind:T_ETH_4532_WE_74930000","g-ind:T_Wurth_WE-STST-4532_74930000","240µ",0.00024,0.008,"https://www.lcsc.com/datasheet/C41425875.pdf","C41425875",

@@ -21,6 +21,9 @@ Adding a new part is simple as adding a line to the appropriate `csv` file and r
 
 If you need to add a symbol or footprint, add to the matching `g-XXX.kicad_sym`, or `g-XXX.pretty` libraries.
 
+## Non-BoM items
+There's no database for these.  There's a [g-no_bom symbol library](./symbols/g-no_bom.kicad_sym) that contains these symbols.  The symbols contain a link to the footprint.
+
 ## Implementation details
 The IPN (Internal Part Number) format used is specified in [this document](https://github.com/git-plm/parts/blob/main/partnumbers.md).
 
