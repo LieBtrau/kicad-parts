@@ -1,3 +1,4 @@
-"IPN","MPN","Manufacturer","Description","Resistance","Symbol","Footprint","Tolerance","Turns","Datasheet","LCSC","MPN TBC"
-"RVR-0000-1001","3314J-1-102E","Bourns","TRIMMER 1K OHM 0.25W J LEAD TOP","1K","g-pas:R_Potentiometer_Trim_US","g-rvr:Potentiometer_Bourns_3314J_Vertical","20.00%",1,"https://www.bourns.com/docs/Product-Datasheets/3314.pdf","C124640","ST-4ETA102, 23AR1KLFTR, TS53YJ102MR10"
-"RVR-0000-1002","3314J-1-103E","Bourns","TRIMMER 10K OHM 0.25W J LEAD TOP","10K","g-pas:R_Potentiometer_Trim_US","g-rvr:Potentiometer_Bourns_3314J_Vertical","20.00%",1,"https://www.bourns.com/docs/Product-Datasheets/3314.pdf","C36376",
+"IPN","MPN","Manufacturer","Description","Resistance","Symbol","Footprint","Tolerance","Turns","Datasheet","LCSC","MPN TBC","TME"
+"RVR-0000-1001","3314J-1-102E","Bourns","TRIMMER 1K OHM 0.25W J LEAD TOP","1K","g-pas:R_Potentiometer_Trim_US","g-rvr:Potentiometer_Bourns_3314J_Vertical","20.00%",1,"https://www.bourns.com/docs/Product-Datasheets/3314.pdf","C124640","ST-4ETA102, 23AR1KLFTR, TS53YJ102MR10",
+"RVR-0000-1002","3314J-1-103E","Bourns","TRIMMER 10K OHM 0.25W J LEAD TOP","10K","g-pas:R_Potentiometer_Trim_US","g-rvr:Potentiometer_Bourns_3314J_Vertical","20.00%",1,"https://www.bourns.com/docs/Product-Datasheets/3314.pdf","C36376",,
+"RVR-0000-2003","3314J-1-204E","BOURNS","POT 200kΩ 250mW SMD,4.5x4.5mm","200K","g-pas:R_Potentiometer_Trim_US","g-rvr:Potentiometer_Bourns_3314J_Vertical","20.00%",1,"https://www.lcsc.com/datasheet/C124643.pdf","C124643",,"/"
