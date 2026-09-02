@@ -1,3 +1,3 @@
 "IPN","Value","MPN","Manufacturer","Class","Subclass","Description","Symbol","Footprint","Datasheet","LCSC","TME"
 "ICS-0000-0000","74xx123","74LVC1G123DP,125","Nexperia","Logic","Multivibrators","Single retriggerable monostable multivibrator; Schmitt trigger inputs","g-ics:74xx1G123","g-tssop:TSSOP-8_3x3mm_P0.65mm","https://www.lcsc.com/datasheet/C513291.pdf","C513291","74LVC1G123DC.125"
-"ICS-0100-0000","TPS7A0218","TPS7A0218PDBVR","TI","PMIC","LDO","200mA, nanopower-IQ (25nA), low dropout (LDO) regulator with enable functionality","g-ics:LDO_EN","g-sot:SOT-23-5","https://www.lcsc.com/datasheet/C3748843.pdf","C3748843","TPS7A0218PDBVR"
+"ICS-0100-0000","TPS7A0218","TPS7A0218PDBVR","TI","PMIC","LDO","200mA, nanopower-IQ (25nA), low dropout (LDO) regulator with enable functionality","g-ics:LDO_EN","g-SOT:SOT-23-5","https://www.lcsc.com/datasheet/C3748843.pdf","C3748843","TPS7A0218PDBVR"
