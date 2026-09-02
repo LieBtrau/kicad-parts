@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "643a5616-f40f-49da-9b65-c3490dd11560")
+		(uuid "998e0ae8-7f4b-4657-9f40-70b9903a7cba")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -19,7 +19,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5c14c042-c8e2-438c-84fa-57ebabfa2891")
+		(uuid "97435c99-5d6d-4749-ae38-1409f2b9acf9")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0639a3e5-1d89-4e3f-aca0-bf6002e78425")
+		(uuid "4b845223-31ae-4e6f-8423-33726bcfd99d")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1cbdbd33-7923-4393-88d0-103ab830447a")
+		(uuid "da36f885-6cc8-4117-9ff6-e118c69185f6")
 		(effects
 			(font
 				(size 1 1)
@@ -57,11 +57,11 @@
 	(duplicate_pad_numbers_are_jumpers no)
 	(pad "1" thru_hole oval
 		(at 0 0)
-		(size 1.4 3.8)
+		(size 1.6 4)
 		(drill oval 0.8 3.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "aec50a18-d469-4a26-a69a-9c193de3d05a")
+		(uuid "3d0e6c97-dfb1-4bc4-aad3-a5c08eb18501")
 	)
 	(embedded_fonts no)
 )
