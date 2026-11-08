@@ -1,12 +1,16 @@
 "IPN","MPN","Manufacturer","Description","Resistance","Value","Symbol","Footprint","Tolerance","Datasheet","LCSC","TME"
 "RES-0000-0000","RC0603FR-070RL","Yageo","RES 0 OHM JUMPER 1/10W 0603","0E",0,"g-pas:R_US","g-res:R_0603_1608Metric",0,"https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","C21189",
 "RES-0000-0010","0603WAF100KT5E","UNI-ROYAL","RES 1Ω ±1% 100mW 0603","1E",1,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.lcsc.com/datasheet/C22936.pdf","C22936","SMD0603-1R-1%"
-"ReS-0000-0100","0603WAF100JT5E","UNI-ROYAL","RES 10Ω ±1% 100mW 0603","10E",10,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.lcsc.com/datasheet/C22859.pdf","C22859","SMD0603-10R-1%"
+"RES-0000-0100","0603WAF100JT5E","UNI-ROYAL","RES 10Ω ±1% 100mW 0603","10E",10,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.lcsc.com/datasheet/C22859.pdf","C22859","SMD0603-10R-1%"
+"RES-0000-0220","0603WAF220JT5E","UNI-ROYAL","RES 22Ω ±1% 100mW 0603","22E",22,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.lcsc.com/datasheet/C23345.pdf","C23345",
 "RES-0000-0470","RC0603FR-0747RL","Yageo","RES 47 OHM 1% 1/10W 0603","47E",47,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","C23182",
 "RES-0000-0510","0603WAF510JT5E","UNI-ROYAL","RES 51Ω ±1% 100mW 0603","51E",51,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.lcsc.com/datasheet/C23197.pdf","C23197",
+"RES-0000-0680","0603WAF680JT5E","UNI-ROYAL","RES 68Ω ±1% 100mW 0603","68E",68,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.lcsc.com/datasheet/C27592.pdf","C27592",
 "RES-0000-1000","RC0603FR-07100RL","Yageo","RES 100 OHM 1% 1/10W 0603","100E",100,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","C22775",
+"RES-0000-1200","0603WAF1200T5E","UNI-ROYAL","RES 120Ω ±1% 100mW 0603","120E",120,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.lcsc.com/datasheet/C22787.pdf","C22787",
 "RES-0000-1500","RC0603FR-07150RL","Yageo","RES 150 OHM 1% 1/10W 0603","150E",150,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","C22808",
 "RES-0000-1800","RC0603FR-07180RL","Yageo","RES 180 OHM 1% 1/10W 0603","180E",180,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","C22828",
+"RES-0000-3000","0603WAF3000T5E","UNI-ROYAL","RES 300Ω ±1% 100mW 0603","300E",300,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.lcsc.com/datasheet/C23025.pdf","C23025",
 "RES-0000-4700","RC0603FR-07470RL","Yageo","RES 470 OHM 1% 1/10W 0603","470E",470,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","C23179",
 "RES-0000-5100","RC0603FR-07510RL","Yageo","RES 510 OHM 1% 1/10W 0603","510E",510,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","C23193",
 "RES-0000-8200","RC0603FR-07820RL","Yageo","RES 820 OHM 1% 1/10W 0603","820E",820,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","C23253",
@@ -17,6 +21,7 @@
 "RES-0000-2001","RC0603FR-072KL","Yageo","RES 2K OHM 1% 1/10W 0603","2K",2000,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","C22975",
 "RES-0000-2201","RC0603FR-072K2L","Yageo","RES 2.2K OHM 1% 1/10W 0603","2K2",2200,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","C4190",
 "RES-0000-2701","RC0603FR-072K7L","Yageo","RES 2.7K OHM 1% 1/10W 0603","2K7",2700,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","C13167",
+"RES-0000-3001","0603WAF3001T5E","UNI-ROYAL","RES 3kΩ ±1% 100mW 0603","3K0",3000,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.lcsc.com/datasheet/C4211.pdf","C4211",
 "RES-0000-3301","0603WAF3301T5E","UNI-ROYAL","RES 3.3kΩ ±1% 100mW 0603","3K3",3300,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.lcsc.com/datasheet/C22978.pdf","C22978",
 "RES-0000-3601","0603WAF3601T5E","UNI-ROYAL","RES 3.6kΩ ±1% 100mW 0603","3K6",3600,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.lcsc.com/datasheet/C22980.pdf","C22980",
 "RES-0000-3901","RC0603FR-133K9L","Yageo","RES 3.9K OHM 1% 1/10W 0603","3K9",3900,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","C23018",
@@ -43,4 +48,4 @@
 "RES-0000-4703","RC0603FR-07470KL","Yageo","RES 470K OHM 1% 1/10W 0603","470K",470000,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","C23178",
 "RES-0000-1004","RC0603FR-071ML","Yageo","RES 1M OHM 1% 1/10W 0603","1M",1000000,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L","C22935",
 "RES-0000-1005","0603WAF1005T5E","UNI-ROYAL","RES 10MΩ ±1% 100mW 0603","10M",10000000,"g-pas:R_US","g-res:R_0603_1608Metric","1%","https://www.lcsc.com/datasheet/C7250.pdf","C7250","RC0603FR-0710ML"
-"RES-0001-0000","FRC1210F0000TS","FOJAN","RES 0Ω ±1% 500mW 1210","0E",0,"g-pas:R_US","g-res:R_1210_3225Metric",1.00%,"https://www.lcsc.com/datasheet/C2974058.pdf","C2974058",
+"RES-0001-0000","FRC1210F0000TS","FOJAN","RES 0Ω ±1% 500mW 1210","0E",0,"g-pas:R_US","g-res:R_1210_3225Metric","1.00%","https://www.lcsc.com/datasheet/C2974058.pdf","C2974058",
