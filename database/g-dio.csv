@@ -6,4 +6,5 @@
 "DIO-0002-0030","BZX584C3V0","3V0","MOT","DIODE ZENER 3V 150mW SOD-523","g-dis:ZD_Zener_Filled","g-dio:D_SOD-523",0.005,"3V","https://www.vishay.com/docs/85793/bzx584c-series.pdf","C6771811"
 "DIO-0002-0047","BZX585-B4V7,115","4V7","Nexperia","DIODE ZENER 4.7V 300mW SOD-523(SC-79)","g-dis:ZD_Zener_Filled","g-dio:D_SOD-523",0.005,"4.7V","https://www.lcsc.com/datasheet/C550612.pdf","C550612"
 "DIO-0002-0051","BZX585-B5V1,115","5V1","Nexperia","DIODE ZENER 5.1V 300mW SOD-523","g-dis:ZD_Zener_Filled","g-dio:D_SOD-523",0.005,"5.1V","https://www.lcsc.com/datasheet/C503372.pdf","C503372"
+"DIO-0002-0057","BZX585-B5V6,115","5V6","Nexperia","DIODE ZENER 5.6V 300mW SOD-523(SC-79)","g-dis:ZD_Zener_Filled","g-dio:D_SOD-523",0.005,"5.6V","https://www.lcsc.com/datasheet/C426825.pdf","C426825"
 "DIO-0003-0000","BAT15-099R","BAT15-099R","Infineon","DIODE ARR SCHOTTKY 4V SOT-143-4","g-dis:D_QUAD_RING","g-SOT:SOT-143",0.11,"4V","https://www.lcsc.com/datasheet/C4468492.pdf","C4468492"
